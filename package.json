@@ -44,9 +44,14 @@
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
-    "husky": "^8.0.1",
+    "husky": "^8.0.0",
     "lint-staged": "^12.4.3",
     "prettier": "^2.6.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{js,css,md,ts,tsx}": "prettier --write"

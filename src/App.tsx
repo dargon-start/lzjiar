@@ -11,7 +11,7 @@ function App() {
           Edit
           <code>src/App.tsx</code>
           and save to reload. <div>fewaf</div>
-          fewafe
+          fewafe fewaffew fewaffewaf ew
         </p>
         <a
           className="App-link"

@@ -46,6 +46,7 @@
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.0",
     "lint-staged": "^12.4.3",
+    "mrm": "^4.0.0",
     "prettier": "2.6.2"
   },
   "husky": {
